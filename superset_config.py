@@ -1,7 +1,7 @@
 # Superset specific config
 ROW_LIMIT = 10000
 SQLALCHEMY_DATABASE_URI= "sqlite:////app/data/superset.db"
-SECRET_KEY = 'CjRnhwLD1iF5JoI/hPazpUSwLDAU+cS/BNIQkX5WxCU='
+SECRET_KEY = 'Mz4PAfhuiid8mlMa9Cf/At6gfOo8o8hPh9S3aXAlWmn2KCp7jjppdvfw'
 
 # Flask-WTF flag for CSRF
 WTF_CSRF_ENABLED = True
