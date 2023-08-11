@@ -1,10 +1,6 @@
-server {
-    listen 80;
-    server_name informes.igsiweb.com;
-
-    location / {
-        proxy_pass http://localhost:8088;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-    }
-}
+1. Primero arranque el contenedor
+    docker compose up -d
+2. Establezca permisos al Script de Inicializacion
+    chmod +x init.sh
+3. Corra el Script
+   ./init.sh 
